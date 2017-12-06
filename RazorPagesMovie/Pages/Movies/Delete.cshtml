@@ -19,7 +19,8 @@
             @Html.DisplayFor(model => model.MyMovie.Title)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.MyMovie.ReleaseDate)
+            Release Date
+            <!--@Html.DisplayNameFor(model => model.MyMovie.ReleaseDate)-->
         </dt>
         <dd>
             @Html.DisplayFor(model => model.MyMovie.ReleaseDate)
@@ -35,6 +36,12 @@
         </dt>
         <dd>
             @Html.DisplayFor(model => model.MyMovie.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MyMovie.Rating)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MyMovie.Rating)
         </dd>
     </dl>
     
